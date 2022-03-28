@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="MyMavenbuild.AppTest" time="0.003" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="Maven_Demo_Job"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://35.170.202.34:8080/job/Maven_Demo_Job/11/display/redirect?page=tests"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/root/.jenkins"/>
+    <property name="PATH" value="/sbin:/bin:/usr/sbin:/usr/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="a71212c5d2257476"/>
+    <property name="POM_ARTIFACTID" value="testProject"/>
+    <property name="os.name" value="Linux"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="testProject"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="11.0.14.1+10-LTS"/>
+    <property name="log4jFixerAgentVersion" value="1"/>
+    <property name="user.name" value="root"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Maven_Demo_Job"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://35.170.202.34:8080/job/Maven_Demo_Job/11/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#11"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-amazon-corretto.x86_64/lib"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="c013a21aa0d51efbd0cb9459fb4dbb14b95c5779"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.timezone" value="UTC"/>
+    <property name="USERNAME" value="root"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="TERM" value="xterm"/>
+    <property name="BUILD_ID" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="SUDO_GID" value="1000"/>
+    <property name="maven.conf" value="/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_home/conf"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-amazon-corretto.x86_64"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="5.10.102-99.473.amzn2.x86_64"/>
+    <property name="RUN_DISPLAY_URL" value="http://35.170.202.34:8080/job/Maven_Demo_Job/11/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://35.170.202.34:8080/job/Maven_Demo_Job/11/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.14.1+10-LTS"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="c013a21aa0d51efbd0cb9459fb4dbb14b95c5779"/>
+    <property name="JOB_DISPLAY_URL" value="http://35.170.202.34:8080/job/Maven_Demo_Job/display/redirect"/>
+    <property name="SUDO_COMMAND" value="/bin/nohup java -jar jenkins.war"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="root"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/root"/>
+    <property name="POM_GROUPID" value="MyMavenbuild"/>
+    <property name="user.home" value="/root"/>
+    <property name="BUILD_TAG" value="jenkins-Maven_Demo_Job-11"/>
+    <property name="JENKINS_SERVER_COOKIE" value="a71212c5d2257476"/>
+    <property name="HUDSON_URL" value="http://35.170.202.34:8080/"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="XDG_SESSION_ID" value="1"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="HISTSIZE" value="1000"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_home"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_home /root/.jenkins/war/WEB-INF/lib/remoting-4.13.jar /root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 33059"/>
+    <property name="java.class.path" value="/root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_home/boot/plexus-classworlds-2.6.0.jar:/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_home/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_home"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="MAIL" value="/var/spool/mail/ec2-user"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="HOSTNAME" value="ip-172-31-83-16.ec2.internal"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/root/.jenkins"/>
+    <property name="PATH+MAVEN" value="/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_home/bin"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:"/>
+    <property name="BUILD_URL" value="http://35.170.202.34:8080/job/Maven_Demo_Job/11/"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="user.dir" value="/home/ec2-user/testProject"/>
+    <property name="JOB_URL" value="http://35.170.202.34:8080/job/Maven_Demo_Job/"/>
+    <property name="SUDO_USER" value="ec2-user"/>
+    <property name="MAVEN_HOME" value="/root/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_home"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="11"/>
+    <property name="JENKINS_URL" value="http://35.170.202.34:8080/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="GIT_COMMIT" value="c013a21aa0d51efbd0cb9459fb4dbb14b95c5779"/>
+    <property name="SUDO_UID" value="1000"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/root/.jenkins/workspace/Maven_Demo_Job@tmp"/>
+    <property name="WORKSPACE" value="/root/.jenkins/workspace/Maven_Demo_Job"/>
+    <property name="maven3.interceptor.common" value="/root/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="Corretto-11.0.14.10.1"/>
+    <property name="USER" value="root"/>
+    <property name="GIT_URL" value="https://github.com/Akarsha-Reddy/Maven-build-Project-demo.git"/>
+  </properties>
+  <testcase classname="MyMavenbuild.AppTest" name="testApp" time="0.003"/>
+</testsuite>

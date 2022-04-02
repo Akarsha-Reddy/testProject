@@ -1,7 +1,8 @@
 pipeline {  
     agent any 
      tools {
-	 maven 'Maven_home' 	
+	 maven 'Maven_home' 
+	 sonar 'SonarQube_scanner_home'
 	}
     stages { 
         stage('Build') { 

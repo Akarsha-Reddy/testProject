@@ -1,8 +1,7 @@
 pipeline {  
     agent any 
      tools {
-	 maven 'Maven_home' 
-	 sonar 'SonarQube_scanner_home'
+	 maven 'Maven_home'
 	}
     stages { 
         stage('Build') { 
@@ -17,7 +16,7 @@ pipeline {
 	}
 	stage("build & SonarQube analysis") {
           steps {
-              withSonarQubeEnv('My SonarQube Server') {
+              withSonarQubeEnv('SonarQube') {
                  sh 'mvn clean package sonar:sonar'
               }
           }

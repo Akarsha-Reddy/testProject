@@ -28,8 +28,7 @@ pipeline {
                     	   url: "https://akarshreddy.jfrog.io",
                     	   username: 'jenkins',
 			   password: 'Ak@rsh56'
-			   bypassProxy: true,
-			   timeout: 300
+			  
                 	)
 		    }
 	    }

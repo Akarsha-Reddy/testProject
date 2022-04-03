@@ -14,13 +14,7 @@ pipeline {
 		sh "mvn clean install"
 		}
 	}
-	stage("build & SonarQube analysis") {
-          steps {
-              withSonarQubeEnv('SonarQube') {
-                 sh 'mvn clean package sonar:sonar'
-              }
-          }
-      }
+	
 	 stage("Jfrog server") {
 		steps{
 			rtServer (

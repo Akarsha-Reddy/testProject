@@ -24,13 +24,13 @@ pipeline {
 	 stage("Jfrog server") {
 		steps{
 			rtServer (
-                    id: "jfrog-server", 
-                    url: "https://akarshreddy.jfrog.io",
-                    username: 'jenkins',
-			password: 'Ak@rsh56'
-			bypassProxy: true,
-			timeout: 300
-                		)
+                    	   id: "jfrog-server", 
+                    	   url: "https://akarshreddy.jfrog.io",
+                    	   username: 'jenkins',
+			   password: 'Ak@rsh56'
+			   bypassProxy: true,
+			   timeout: 300
+                	)
 		    }
 	    }
 	  stage("Jfrog upload") {
